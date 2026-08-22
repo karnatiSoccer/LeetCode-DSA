@@ -9,7 +9,7 @@ class Solution {
             prod *= digit;
             N/=10;
         }   
-        System.out.println(sum + " " + prod);
+        // System.out.println(sum + " " + prod);
         return n % (sum+prod )==0;
     }
 }
